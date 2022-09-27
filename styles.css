@@ -153,7 +153,7 @@ h2 {
 
 .romania-red {
   background-color: #e10017;
-  
+  width: 33.33%;
 }
 
 /* END QUESTION 3 */
@@ -210,6 +210,6 @@ h2:hover {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  padding: 50 px 50px;
+  padding: 60 px 60px;
   /* TODO */
 }

@@ -142,15 +142,18 @@ h2 {
 /* BEGIN QUESTION 3 */
 
 .romania-blue {
-  background-color: #002c84;
+  background-color: #002c84; 
+  width: 33.33%;
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  width: 33.33%;
 }
 
 .romania-red {
   background-color: #e10017;
+  width: 33.33%;
 }
 
 /* END QUESTION 3 */

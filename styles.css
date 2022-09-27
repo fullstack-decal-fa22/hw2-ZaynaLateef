@@ -39,6 +39,10 @@ h2 {
   background-color: red;
 }
 
+.red.twovert {
+  background-color: red;
+}
+
 .red.threevert#white {
   background-color: white;
 }
@@ -53,6 +57,10 @@ h2 {
 
 .narrow {
   height: 17.5%;
+}
+
+.white.twovert {
+  background-color: white;
 }
 
 .wide {
@@ -74,6 +82,11 @@ h2 {
 
 .orange {
   background-color: orange;
+}
+
+.light-blue {
+  background-color: #00A4E3;
+
 }
 
 .yellow {
@@ -107,19 +120,19 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  height: 50px;
+  height: 16.66%;
   width: 500px;
   background-color: #B5002D;
 }
 
 .thailand-white {
-  height: 50px;
+  height: 16.66%;
   width: 500px;
   background-color: white
 }
 
 .thailand-blue {
-  height: 50px;
+  height: 33.33%;
   width: 500px;
   background-color: #2E2A4c
 }
@@ -158,6 +171,16 @@ h2 {
   background-color: #ce1126;
 }
 
+.label {
+  color: rgb(91, 169, 195);
+}
+
+h2:hover {
+  color: orange;
+  transform: scale(1.5)
+
+}
+
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
@@ -172,16 +195,18 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 5 px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5 px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
+  padding: 50 px 50px;
   /* TODO */
 }
